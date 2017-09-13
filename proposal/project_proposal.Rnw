@@ -1,0 +1,60 @@
+\documentclass{article}
+\title{BST270 Project Proposal}
+\author{Linglin Huang}
+\begin{document}
+
+\maketitle
+
+\section{Data Description}
+
+a.	The source of the data
+b.	The date (or time period) of collection
+c.	Method of data collection
+d.	Sample size
+e.	Outcome of interest (include type, i.e. binary, continuous, categorical, time to event, etc.)
+f.	List of covariates 
+
+
+10 samples, paired:
+RNA seq data (raw)
+DNA SV data (not raw data, acceptable?)
+
+why 10? only set available
+
+\section{Research Question}
+
+a.	Should relate to the data described and be answerable/testable using the data described
+
+
+which fusion transcripts are supported by SV? do different software tend to find different overlapped ones? any indications?
+
+
+\section{Programming Language and Platforms}
+
+a.	You may use multiple languages and platforms
+
+
+bash to run software on noah.dfci.harvard.edu
+R to analyze results with R Notebook
+
+
+
+\section{Planned methods and analysis}
+
+a.	Be as specific as possible
+b.	Be sure the methods are appropriate for the type of data being analyzed 
+
+
+set operations: setdiff, intersect, ...
+summary statistics comparing spanning/segment reads, inter/intra chromsomal fusions, ...
+evaluate false positive/negative rates if possible
+
+
+\section{Planned visuals}
+
+a.	Types (tables, charts, figures, etc.)
+b.	Figures may be generated with a language other than the one stated in section 3 above. For example, you can perform an analysis using Python, but generate figures using R.
+
+
+
+\end{document}
